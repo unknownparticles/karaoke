@@ -276,7 +276,7 @@ export default function SongSelector({
             <input
               ref={fileInputRef}
               type="file"
-              accept="audio/*"
+              accept="audio/*, .mp3, .wav, .m4a, .aac, .ogg, .flac, .webm, .caf, .m4r, .mp4, *"
               onChange={handleFileChange}
               className="hidden"
             />
@@ -295,7 +295,7 @@ export default function SongSelector({
               <div className="space-y-1">
                 <Upload className="h-5 w-5 text-zinc-500 group-hover:text-cyan-400 mx-auto transition-colors" />
                 <p className="text-xs font-medium text-zinc-300">拖拽或点击上传本地音频伴奏</p>
-                <p className="text-[9px] text-zinc-600">支持 MP3, WAV, M4A | 自动提取BPM调性</p>
+                <p className="text-[9px] text-zinc-600">支持 MP3, WAV, M4A 及无后缀音频等 | 自动提取BPM调性</p>
               </div>
             )}
           </div>
