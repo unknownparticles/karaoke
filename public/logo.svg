@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#06b6d4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#09090b"/>
+  <!-- Glowing circle behind -->
+  <circle cx="256" cy="256" r="180" fill="url(#grad)" opacity="0.15" filter="url(#shadow)"/>
+  <!-- Microphone and Music notes -->
+  <g transform="translate(128, 128)">
+    <!-- Music note -->
+    <path d="M192 48 L192 144 A32 32 0 1 1 160 112 A32 32 0 0 1 192 144 Z" fill="url(#grad)" opacity="0.8"/>
+    <!-- Microphone body -->
+    <rect x="108" y="112" width="40" height="96" rx="20" fill="url(#grad)"/>
+    <path d="M92 80 C92 48, 164 48, 164 80 L164 120 C164 152, 92 152, 92 120 Z" fill="url(#grad)" stroke="#09090b" stroke-width="6"/>
+    <!-- Mic Stand -->
+    <path d="M100 128 C100 160, 156 160, 156 128" fill="none" stroke="url(#grad)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="128" y1="160" x2="128" y2="216" stroke="url(#grad)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="104" y1="216" x2="152" y2="216" stroke="url(#grad)" stroke-width="12" stroke-linecap="round"/>
+    <!-- Sparkles -->
+    <path d="M64 48 L72 32 L80 48 L96 56 L80 64 L72 80 L64 64 L48 56 Z" fill="#06b6d4"/>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+{"name":"K歌提词录音伴奏机","description":"导入一首歌或网易云链接，智能解析歌词、伴奏和和弦，带滚动提词器、实时人声混响延迟特效、录音并导出高质量音频","requestFramePermissions":["microphone"],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}

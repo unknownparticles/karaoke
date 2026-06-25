@@ -1,0 +1,24 @@
+{
+  "short_name": "K歌伴奏机",
+  "name": "K歌提词录音伴奏机 (AI & PWA)",
+  "description": "智能和弦歌词解析 • 专业人声调音台混响 • 钢琴窗伴奏重新合成",
+  "icons": [
+    {
+      "src": "./logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "./logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "display": "standalone",
+  "orientation": "any"
+}
