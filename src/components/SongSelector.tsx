@@ -276,7 +276,7 @@ export default function SongSelector({
             <input
               ref={fileInputRef}
               type="file"
-              accept="audio/*, .mp3, .wav, .m4a, .aac, .ogg, .flac, .webm, .caf, .m4r, .mp4, *"
+              accept="audio/*,video/*,.mp3,.wav,.m4a,.aac,.flac,.caf"
               onChange={handleFileChange}
               className="hidden"
             />
@@ -314,7 +314,7 @@ export default function SongSelector({
             <input
               ref={lyricsFileInputRef}
               type="file"
-              accept=".txt,.lrc"
+              accept=".txt,.lrc,text/plain,text/*,application/octet-stream"
               onChange={handleLyricsFileChange}
               className="hidden"
             />
